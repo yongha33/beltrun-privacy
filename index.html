@@ -41,6 +41,7 @@
 <div class="langbar">
   <button class="lang-btn active" id="btn-ko" onclick="setLang('ko')">한국어</button>
   <button class="lang-btn" id="btn-en" onclick="setLang('en')">English</button>
+  <button class="lang-btn" id="btn-ja" onclick="setLang('ja')">日本語</button>
 </div>
 
 <!-- ───────────── 한국어 ───────────── -->
@@ -90,7 +91,6 @@
   <h2>10. 문의처</h2>
   <p>운영자: 김용하<br>이메일: rladydgk4627@gmail.com</p>
 
-  <p class="note">※ 본 문서는 표준 초안이며 법적 검토를 권장합니다.</p>
 </section>
 
 <!-- ───────────── English ───────────── -->
@@ -140,15 +140,65 @@
   <h2>10. Contact</h2>
   <p>Operator: Kim Yongha<br>Email: rladydgk4627@gmail.com</p>
 
-  <p class="note">※ This is a standard draft; legal review is recommended.</p>
+</section>
+
+<!-- ───────────── 日本語 ───────────── -->
+<section id="lang-ja" hidden>
+  <h1>ベルトラン（BeltRun） プライバシーポリシー</h1>
+  <div class="date">施行日: 2026年6月22日</div>
+  <p>ベルトラン（以下「本サービス」）は、利用者の個人情報を重要視し、関連法令を遵守します。本ポリシーは、本サービスがどのような情報を収集・利用し、どのように保護するかを説明します。</p>
+
+  <h2>1. 収集する個人情報の項目</h2>
+  <p><strong>ア. 会員登録・ログイン（Apple / Google ソーシャルログイン）</strong><br>メールアドレス、氏名（または表示名）、プロフィール写真、ソーシャルアカウントの固有識別子</p>
+  <p><strong>イ. サービス利用中に生成・入力される情報</strong><br>運動記録（距離・時間・カロリー・日時）、トレッドミルのディスプレイ撮影写真および手動入力値、プロフィール写真、ニックネーム・年代・性別（任意）、友達関係およびチャレンジ参加・ランキング情報</p>
+  <p><strong>ウ. 自動的に収集される情報</strong><br>端末情報、アプリバージョン、利用ログ・イベント（分析データ）、プッシュ通知トークン</p>
+  <p><strong>エ. 健康データ（任意、Apple Health）</strong><br>利用者が許可した場合に限り、<strong>屋外ランニングの距離</strong>を読み取り、画面に「参考比較」としてのみ表示します。このデータは<strong>端末内でのみ使用</strong>され、サーバー保存や第三者提供は行いません。</p>
+
+  <h2>2. 収集方法</h2>
+  <p>ソーシャルログイン認証、利用者による直接入力および写真撮影、サービス利用過程での自動収集</p>
+
+  <h2>3. 利用目的</h2>
+  <p>会員識別・ログインおよびサービス提供、運動記録の保存・同期および統計提供、友達ランキング・チャレンジなどのソーシャル機能の提供、プッシュ通知の送信、サービス改善および利用分析</p>
+
+  <h2>4. 保有・利用期間および破棄</h2>
+  <p>退会または削除のご要望があった場合、遅滞なく破棄します。運動記録は利用者がアプリ内で直接削除でき、削除するとクラウドからも削除されます。法令上の保存が必要な場合は、当該期間保管した後に破棄します。</p>
+
+  <h2>5. 第三者への処理委託（海外移転を含む）</h2>
+  <p>サービス運営のため、以下の事業者のインフラ／ツールを利用しており、データが海外に保存・処理される場合があります。</p>
+  <table>
+    <tr><th>委託先</th><th>目的</th></tr>
+    <tr><td>Google Firebase (Auth・Firestore・Storage)</td><td>アカウント認証、データ保存、写真保存</td></tr>
+    <tr><td>Google Analytics (GA4)</td><td>利用統計・分析</td></tr>
+    <tr><td>Google (Gemini API)</td><td>トレッドミル写真からの運動データ自動認識</td></tr>
+    <tr><td>Mapbox</td><td>チャレンジ地図の表示</td></tr>
+    <tr><td>Expo</td><td>プッシュ通知の送信</td></tr>
+  </table>
+
+  <h2>6. 利用者の権利</h2>
+  <p>利用者はいつでもご自身の情報の閲覧・訂正・削除・処理停止を請求できます。アプリ内で運動記録の削除、友達の削除、<strong>退会（アカウント・データ削除）</strong>が可能です。健康データ・通知などの同意は、端末の設定またはアプリ内でいつでも撤回できます。</p>
+
+  <h2>7. 14歳未満の児童</h2>
+  <p>本サービスは14歳未満の児童を対象とせず、当該児童の個人情報を故意に収集しません。</p>
+
+  <h2>8. 安全性確保の措置</h2>
+  <p>通信区間の暗号化（HTTPS）、アクセス権限の管理など、合理的な保護措置を適用します。</p>
+
+  <h2>9. ポリシーの変更</h2>
+  <p>本ポリシーが変更される場合、アプリ内のお知らせまたは本ページにてお知らせします。</p>
+
+  <h2>10. お問い合わせ</h2>
+  <p>運営者: キム・ヨンハ（김용하）<br>メール: rladydgk4627@gmail.com</p>
+
 </section>
 
 <script>
   function setLang(l){
     document.getElementById('lang-ko').hidden = (l!=='ko');
     document.getElementById('lang-en').hidden = (l!=='en');
+    document.getElementById('lang-ja').hidden = (l!=='ja');
     document.getElementById('btn-ko').classList.toggle('active', l==='ko');
     document.getElementById('btn-en').classList.toggle('active', l==='en');
+    document.getElementById('btn-ja').classList.toggle('active', l==='ja');
     document.documentElement.lang = l;
   }
 </script>
