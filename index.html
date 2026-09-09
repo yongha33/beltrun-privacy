@@ -47,20 +47,24 @@
 <!-- ───────────── 한국어 ───────────── -->
 <section id="lang-ko">
   <h1>Beltrun 개인정보처리방침</h1>
-  <div class="date">시행일: 2026년 6월 22일</div>
+  <div class="date">시행일: 2026년 6월 22일 · 최종 개정: 2026년 9월 9일</div>
   <p>Beltrun(이하 "서비스")은 이용자의 개인정보를 중요하게 생각하며, 「개인정보 보호법」 등 관련 법령을 준수합니다. 본 방침은 서비스가 어떤 정보를 수집·이용하고 어떻게 보호하는지를 설명합니다.</p>
 
   <h2>1. 수집하는 개인정보 항목</h2>
   <p><strong>가. 회원 가입·로그인 (Apple / Google 소셜 로그인)</strong><br>이메일 주소, 이름(또는 표시 이름), 프로필 사진, 소셜 계정 고유 식별자</p>
   <p><strong>나. 서비스 이용 중 생성·입력되는 정보</strong><br>운동 기록(거리·시간·칼로리·일시), 런닝머신 디스플레이 촬영 사진 및 직접 입력 값, 프로필 사진, 닉네임·연령대·성별(선택), 친구 관계 및 챌린지 참여·순위 정보</p>
   <p><strong>다. 자동으로 수집되는 정보</strong><br>기기 정보, 앱 버전, 이용 로그·이벤트(분석 데이터), 푸시 알림 토큰</p>
+  <p><strong>마. 신고 정보 (선택)</strong><br>다른 이용자의 기록을 신고할 때 신고 대상 기록, 신고 사유, 메모(선택), 신고 일시</p>
   <p><strong>라. 건강 데이터 (선택, Apple Health)</strong><br>이용자가 허용한 경우, <strong>야외 러닝 기록(거리·시간·칼로리·일시)</strong>을 읽어와 운동 기록으로 저장·동기화하며, 챌린지·친구 랭킹에 반영됩니다. 공정성을 위해 <strong>기기에서 실측된 러닝만</strong> 사용하며(건강 앱에 수동 입력된 기록은 제외), 저장·처리는 다른 운동 기록과 동일하게 이뤄집니다.</p>
 
+  <h2>1-1. 운동 기록 사진의 저장과 공개</h2>
+  <p>러닝머신 콘솔을 촬영해 기록을 저장하면, 그 콘솔 사진이 <strong>기록의 근거</strong>로 서버(Firebase Storage)에 함께 저장됩니다. 이 사진은 기록의 값과 사진을 대조해 신뢰할 수 있도록 <strong>친구와 서비스 운영자에게 공개</strong>되며, 사진 파일은 로그인한 이용자가 접근할 수 있는 저장 공간에 보관됩니다. 사진 업로드는 촬영으로 기록을 저장할 때만 일어나며, 기록을 삭제하면 사진도 함께 삭제됩니다. 직접 입력한 기록에는 사진이 없습니다.</p>
+
   <h2>2. 수집 방법</h2>
-  <p>소셜 로그인 인증, 이용자의 직접 입력 및 사진 촬영, 서비스 이용 과정에서의 자동 수집</p>
+  <p>소셜 로그인 인증, 이용자의 직접 입력 및 사진 촬영, 신고 접수, 서비스 이용 과정에서의 자동 수집</p>
 
   <h2>3. 이용 목적</h2>
-  <p>회원 식별·로그인 및 서비스 제공, 운동 기록 저장·동기화 및 통계 제공, 친구 랭킹·챌린지 등 소셜 기능 제공, 푸시 알림 발송, 서비스 개선 및 이용 분석</p>
+  <p>회원 식별·로그인 및 서비스 제공, 운동 기록 저장·동기화 및 통계 제공, 친구 랭킹·챌린지 등 소셜 기능 제공, <strong>기록 신뢰성 확보(사진 대조·신고 처리·기록 조정)</strong>, 푸시 알림 발송, 서비스 개선 및 이용 분석</p>
 
   <h2>4. 보유·이용 기간 및 파기</h2>
   <p>회원 탈퇴 또는 삭제 요청 시 지체 없이 파기합니다. 운동 기록은 이용자가 앱에서 직접 삭제할 수 있으며, 삭제 시 클라우드에서도 제거됩니다. 법령상 보존이 필요한 경우 해당 기간 보관 후 파기합니다.</p>
@@ -79,6 +83,9 @@
   <h2>6. 이용자의 권리</h2>
   <p>이용자는 언제든지 본인 정보의 열람·정정·삭제·처리정지를 요청할 수 있습니다. 앱 내에서 운동 기록 삭제, 친구 삭제, <strong>회원 탈퇴(계정·데이터 삭제)</strong>가 가능합니다. 건강 데이터·알림 등 동의는 기기 설정 또는 앱에서 언제든 철회할 수 있습니다.</p>
 
+  <h2>6-1. 기록의 신고와 운영자 조정</h2>
+  <p>이용자는 친구의 기록이 이상하다고 판단되면 앱에서 신고할 수 있습니다. 신고된 기록은 <strong>서비스 운영자가 사진과 값을 확인한 뒤 값을 조정하거나 삭제</strong>할 수 있으며, 신고를 기각할 수도 있습니다. 조정·삭제가 이뤄지면 해당 기록의 이용자에게 <strong>앱 내 안내와 푸시 알림</strong>으로 알립니다. 조정 결과에 이의가 있으면 문의처로 연락해 주시면 확인합니다. 신고 내용은 신고 처리 목적으로만 사용하며, 신고자는 대상 이용자에게 공개되지 않습니다.</p>
+
   <h2>7. 만 14세 미만 아동</h2>
   <p>서비스는 만 14세 미만 아동을 대상으로 하지 않으며, 해당 아동의 개인정보를 고의로 수집하지 않습니다.</p>
 
@@ -96,20 +103,24 @@
 <!-- ───────────── English ───────────── -->
 <section id="lang-en" hidden>
   <h1>Beltrun — Privacy Policy</h1>
-  <div class="date">Effective date: June 22, 2026</div>
+  <div class="date">Effective date: June 22, 2026 · Last updated: September 9, 2026</div>
   <p>Beltrun ("the Service") values your privacy and complies with applicable data protection laws. This policy explains what information we collect, how we use it, and how we protect it.</p>
 
   <h2>1. Information We Collect</h2>
   <p><strong>a. Sign-up / Login (Apple / Google social login)</strong><br>Email address, name (or display name), profile photo, social account identifier</p>
   <p><strong>b. Information created or entered while using the Service</strong><br>Workout records (distance, time, calories, date), photos of treadmill displays and manually entered values, profile photo, nickname / age range / gender (optional), friend connections and challenge participation & ranking data</p>
   <p><strong>c. Automatically collected information</strong><br>Device info, app version, usage logs & events (analytics), push notification token</p>
+  <p><strong>e. Report information (optional)</strong><br>When you report another user's record: the reported record, reason, optional note, and time of the report</p>
   <p><strong>d. Health data (optional, Apple Health)</strong><br>With your permission, we read your <strong>outdoor running records (distance, time, calories, date)</strong> and save them as workout records, which are synced and reflected in challenges and friend rankings. For fairness, only <strong>device-measured runs</strong> are used (entries manually added in the Health app are excluded); storage and processing follow the same rules as other workout records.</p>
 
+  <h2>1-1. Storage and Visibility of Workout Photos</h2>
+  <p>When you save a workout by photographing the treadmill console, that console photo is stored on our server (Firebase Storage) as <strong>evidence for the record</strong>. To let records be verified against their photos, the photo is <strong>visible to your friends and to the Service operator</strong>, and the photo file is kept in storage accessible to signed-in users. Photos are uploaded only when a workout is saved from a photo, and deleting the workout deletes its photo. Manually entered workouts have no photo.</p>
+
   <h2>2. How We Collect</h2>
-  <p>Social login authentication, your direct input and photo capture, and automatic collection during use of the Service.</p>
+  <p>Social login authentication, your direct input and photo capture, report submission, and automatic collection during use of the Service.</p>
 
   <h2>3. Purpose of Use</h2>
-  <p>User identification & login, providing the Service, storing/syncing workout records and statistics, social features (friend ranking, challenges), sending push notifications, and improving the Service through usage analytics.</p>
+  <p>User identification & login, providing the Service, storing/syncing workout records and statistics, social features (friend ranking, challenges), <strong>record integrity (photo verification, report handling, record adjustment)</strong>, sending push notifications, and improving the Service through usage analytics.</p>
 
   <h2>4. Retention and Deletion</h2>
   <p>We delete your data without delay upon account deletion or a deletion request. You can delete workout records directly in the app, which also removes them from the cloud. Where retention is required by law, data is kept for the required period and then deleted.</p>
@@ -128,6 +139,9 @@
   <h2>6. Your Rights</h2>
   <p>You may request access, correction, deletion, or suspension of processing of your data at any time. Within the app you can delete workout records, remove friends, and <strong>delete your account (account & data deletion)</strong>. You can withdraw consent (e.g., Health data, notifications) at any time via device settings or the app.</p>
 
+  <h2>6-1. Reporting Records and Operator Adjustment</h2>
+  <p>If a friend's record looks wrong, you can report it in the app. The <strong>Service operator reviews the photo and values and may adjust or delete the record</strong>, or dismiss the report. When a record is adjusted or deleted, its owner is notified by an <strong>in-app notice and a push notification</strong>. If you disagree with an adjustment, contact us and we will review it. Report details are used only to handle the report, and the reporter's identity is not disclosed to the reported user.</p>
+
   <h2>7. Children Under 14</h2>
   <p>The Service is not directed to children under the age of 14 and does not knowingly collect their personal information.</p>
 
@@ -145,20 +159,24 @@
 <!-- ───────────── 日本語 ───────────── -->
 <section id="lang-ja" hidden>
   <h1>Beltrun プライバシーポリシー</h1>
-  <div class="date">施行日: 2026年6月22日</div>
+  <div class="date">施行日: 2026年6月22日 · 最終改定: 2026年9月9日</div>
   <p>Beltrun（以下「本サービス」）は、利用者の個人情報を重要視し、関連法令を遵守します。本ポリシーは、本サービスがどのような情報を収集・利用し、どのように保護するかを説明します。</p>
 
   <h2>1. 収集する個人情報の項目</h2>
   <p><strong>ア. 会員登録・ログイン（Apple / Google ソーシャルログイン）</strong><br>メールアドレス、氏名（または表示名）、プロフィール写真、ソーシャルアカウントの固有識別子</p>
   <p><strong>イ. サービス利用中に生成・入力される情報</strong><br>運動記録（距離・時間・カロリー・日時）、トレッドミルのディスプレイ撮影写真および手動入力値、プロフィール写真、ニックネーム・年代・性別（任意）、友達関係およびチャレンジ参加・ランキング情報</p>
   <p><strong>ウ. 自動的に収集される情報</strong><br>端末情報、アプリバージョン、利用ログ・イベント（分析データ）、プッシュ通知トークン</p>
+  <p><strong>オ. 通報情報（任意）</strong><br>他の利用者の記録を通報する際の、対象記録、理由、メモ（任意）、通報日時</p>
   <p><strong>エ. 健康データ（任意、Apple Health）</strong><br>利用者が許可した場合、<strong>屋外ランニングの記録（距離・時間・カロリー・日時）</strong>を読み取り、運動記録として保存・同期し、チャレンジや友達ランキングに反映します。公平性のため<strong>端末で実測されたランニングのみ</strong>を使用し（ヘルスアプリに手動入力された記録は除外）、保存・処理は他の運動記録と同様に行われます。</p>
 
+  <h2>1-1. 運動記録写真の保存と公開</h2>
+  <p>トレッドミルのコンソールを撮影して記録を保存すると、そのコンソール写真が<strong>記録の根拠</strong>としてサーバー（Firebase Storage）に保存されます。記録の値と写真を照合して信頼できるようにするため、この写真は<strong>友達および本サービスの運営者に公開</strong>され、写真ファイルはログインした利用者がアクセスできる保存領域に保管されます。写真のアップロードは撮影による記録保存時のみ行われ、記録を削除すると写真も削除されます。手動入力の記録には写真はありません。</p>
+
   <h2>2. 収集方法</h2>
-  <p>ソーシャルログイン認証、利用者による直接入力および写真撮影、サービス利用過程での自動収集</p>
+  <p>ソーシャルログイン認証、利用者による直接入力および写真撮影、通報の受付、サービス利用過程での自動収集</p>
 
   <h2>3. 利用目的</h2>
-  <p>会員識別・ログインおよびサービス提供、運動記録の保存・同期および統計提供、友達ランキング・チャレンジなどのソーシャル機能の提供、プッシュ通知の送信、サービス改善および利用分析</p>
+  <p>会員識別・ログインおよびサービス提供、運動記録の保存・同期および統計提供、友達ランキング・チャレンジなどのソーシャル機能の提供、<strong>記録の信頼性確保（写真照合・通報処理・記録の調整）</strong>、プッシュ通知の送信、サービス改善および利用分析</p>
 
   <h2>4. 保有・利用期間および破棄</h2>
   <p>退会または削除のご要望があった場合、遅滞なく破棄します。運動記録は利用者がアプリ内で直接削除でき、削除するとクラウドからも削除されます。法令上の保存が必要な場合は、当該期間保管した後に破棄します。</p>
@@ -176,6 +194,9 @@
 
   <h2>6. 利用者の権利</h2>
   <p>利用者はいつでもご自身の情報の閲覧・訂正・削除・処理停止を請求できます。アプリ内で運動記録の削除、友達の削除、<strong>退会（アカウント・データ削除）</strong>が可能です。健康データ・通知などの同意は、端末の設定またはアプリ内でいつでも撤回できます。</p>
+
+  <h2>6-1. 記録の通報と運営者による調整</h2>
+  <p>友達の記録に不審な点がある場合、アプリ内から通報できます。通報された記録は<strong>運営者が写真と値を確認し、値の調整または削除</strong>を行うことがあり、通報を却下することもあります。調整・削除が行われた場合、該当記録の利用者に<strong>アプリ内のお知らせとプッシュ通知</strong>でお伝えします。調整結果に異議がある場合はお問い合わせ先までご連絡ください。通報内容は通報処理の目的にのみ使用し、通報者は対象の利用者に開示されません。</p>
 
   <h2>7. 14歳未満の児童</h2>
   <p>本サービスは14歳未満の児童を対象とせず、当該児童の個人情報を故意に収集しません。</p>
